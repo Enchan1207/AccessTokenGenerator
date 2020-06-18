@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BAB249C21D500D1D9EB /* TokenListCell.swift */; };
+		9E295BAE249C21D500D1D9EB /* TokenListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BAC249C21D500D1D9EB /* TokenListCell.xib */; };
+		9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */; };
 		9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D692F249B5BC700D2245B /* AppDelegate.swift */; };
 		9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6931249B5BC700D2245B /* SceneDelegate.swift */; };
 		9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6933249B5BC700D2245B /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E295BAB249C21D500D1D9EB /* TokenListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListCell.swift; sourceTree = "<group>"; };
+		9E295BAC249C21D500D1D9EB /* TokenListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenListCell.xib; sourceTree = "<group>"; };
+		9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListViewExt.swift; sourceTree = "<group>"; };
 		9E5D692C249B5BC700D2245B /* AccessTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5D692F249B5BC700D2245B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E5D6931249B5BC700D2245B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E295BAF249C21DA00D1D9EB /* TokenListCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BAB249C21D500D1D9EB /* TokenListCell.swift */,
+				9E295BAC249C21D500D1D9EB /* TokenListCell.xib */,
+			);
+			path = TokenListCell;
+			sourceTree = "<group>";
+		};
+		9E295BB0249C246000D1D9EB /* Access Tokens List */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D6933249B5BC700D2245B /* ViewController.swift */,
+				9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */,
+				9E5D6935249B5BC700D2245B /* Main.storyboard */,
+			);
+			path = "Access Tokens List";
+			sourceTree = "<group>";
+		};
 		9E5D6923249B5BC700D2245B = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +83,8 @@
 			children = (
 				9E5D692F249B5BC700D2245B /* AppDelegate.swift */,
 				9E5D6931249B5BC700D2245B /* SceneDelegate.swift */,
-				9E5D6933249B5BC700D2245B /* ViewController.swift */,
-				9E5D6935249B5BC700D2245B /* Main.storyboard */,
+				9E295BB0249C246000D1D9EB /* Access Tokens List */,
+				9E295BAF249C21DA00D1D9EB /* TokenListCell */,
 				9E5D6938249B5BCB00D2245B /* Assets.xcassets */,
 				9E5D693A249B5BCB00D2245B /* LaunchScreen.storyboard */,
 				9E5D693D249B5BCB00D2245B /* Info.plist */,
@@ -128,6 +153,7 @@
 				9E5D693C249B5BCB00D2245B /* LaunchScreen.storyboard in Resources */,
 				9E5D6939249B5BCB00D2245B /* Assets.xcassets in Resources */,
 				9E5D6937249B5BC700D2245B /* Main.storyboard in Resources */,
+				9E295BAE249C21D500D1D9EB /* TokenListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */,
+				9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */,
 				9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */,
 				9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */,
+				9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,15 @@
 		9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BAB249C21D500D1D9EB /* TokenListCell.swift */; };
 		9E295BAE249C21D500D1D9EB /* TokenListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BAC249C21D500D1D9EB /* TokenListCell.xib */; };
 		9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */; };
+		9E295BB4249C27DC00D1D9EB /* TokenDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BB3249C27DC00D1D9EB /* TokenDetailsVC.swift */; };
+		9E295BB6249C27E600D1D9EB /* TokenDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BB5249C27E600D1D9EB /* TokenDetails.storyboard */; };
+		9E295BB9249C5EFA00D1D9EB /* detailsListExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BB8249C5EFA00D1D9EB /* detailsListExt.swift */; };
+		9E295BBF249C814F00D1D9EB /* userInfoElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BBD249C814F00D1D9EB /* userInfoElementCell.swift */; };
+		9E295BC0249C814F00D1D9EB /* userInfoElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BBE249C814F00D1D9EB /* userInfoElementCell.xib */; };
+		9E295BC4249CC96B00D1D9EB /* accessTokenElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BC2249CC96B00D1D9EB /* accessTokenElementCell.swift */; };
+		9E295BC5249CC96B00D1D9EB /* accessTokenElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BC3249CC96B00D1D9EB /* accessTokenElementCell.xib */; };
+		9E295BC7249CCC7800D1D9EB /* userStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BC6249CCC7800D1D9EB /* userStruct.swift */; };
+		9E295BC9249CCCA100D1D9EB /* tokenStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */; };
 		9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D692F249B5BC700D2245B /* AppDelegate.swift */; };
 		9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6931249B5BC700D2245B /* SceneDelegate.swift */; };
 		9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6933249B5BC700D2245B /* ViewController.swift */; };
@@ -22,6 +31,15 @@
 		9E295BAB249C21D500D1D9EB /* TokenListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListCell.swift; sourceTree = "<group>"; };
 		9E295BAC249C21D500D1D9EB /* TokenListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenListCell.xib; sourceTree = "<group>"; };
 		9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListViewExt.swift; sourceTree = "<group>"; };
+		9E295BB3249C27DC00D1D9EB /* TokenDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDetailsVC.swift; sourceTree = "<group>"; };
+		9E295BB5249C27E600D1D9EB /* TokenDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TokenDetails.storyboard; sourceTree = "<group>"; };
+		9E295BB8249C5EFA00D1D9EB /* detailsListExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsListExt.swift; sourceTree = "<group>"; };
+		9E295BBD249C814F00D1D9EB /* userInfoElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfoElementCell.swift; sourceTree = "<group>"; };
+		9E295BBE249C814F00D1D9EB /* userInfoElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userInfoElementCell.xib; sourceTree = "<group>"; };
+		9E295BC2249CC96B00D1D9EB /* accessTokenElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessTokenElementCell.swift; sourceTree = "<group>"; };
+		9E295BC3249CC96B00D1D9EB /* accessTokenElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = accessTokenElementCell.xib; sourceTree = "<group>"; };
+		9E295BC6249CCC7800D1D9EB /* userStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userStruct.swift; sourceTree = "<group>"; };
+		9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokenStruct.swift; sourceTree = "<group>"; };
 		9E5D692C249B5BC700D2245B /* AccessTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5D692F249B5BC700D2245B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E5D6931249B5BC700D2245B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,11 +73,34 @@
 		9E295BB0249C246000D1D9EB /* Access Tokens List */ = {
 			isa = PBXGroup;
 			children = (
+				9E295BAF249C21DA00D1D9EB /* TokenListCell */,
 				9E5D6933249B5BC700D2245B /* ViewController.swift */,
 				9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */,
 				9E5D6935249B5BC700D2245B /* Main.storyboard */,
 			);
 			path = "Access Tokens List";
+			sourceTree = "<group>";
+		};
+		9E295BB7249C27EB00D1D9EB /* Token Details */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BB5249C27E600D1D9EB /* TokenDetails.storyboard */,
+				9E295BB3249C27DC00D1D9EB /* TokenDetailsVC.swift */,
+				9E295BB8249C5EFA00D1D9EB /* detailsListExt.swift */,
+				9E295BBA249C80E300D1D9EB /* detailsElementCells */,
+			);
+			path = "Token Details";
+			sourceTree = "<group>";
+		};
+		9E295BBA249C80E300D1D9EB /* detailsElementCells */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BC2249CC96B00D1D9EB /* accessTokenElementCell.swift */,
+				9E295BC3249CC96B00D1D9EB /* accessTokenElementCell.xib */,
+				9E295BBD249C814F00D1D9EB /* userInfoElementCell.swift */,
+				9E295BBE249C814F00D1D9EB /* userInfoElementCell.xib */,
+			);
+			path = detailsElementCells;
 			sourceTree = "<group>";
 		};
 		9E5D6923249B5BC700D2245B = {
@@ -83,8 +124,10 @@
 			children = (
 				9E5D692F249B5BC700D2245B /* AppDelegate.swift */,
 				9E5D6931249B5BC700D2245B /* SceneDelegate.swift */,
+				9E295BC6249CCC7800D1D9EB /* userStruct.swift */,
+				9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */,
 				9E295BB0249C246000D1D9EB /* Access Tokens List */,
-				9E295BAF249C21DA00D1D9EB /* TokenListCell */,
+				9E295BB7249C27EB00D1D9EB /* Token Details */,
 				9E5D6938249B5BCB00D2245B /* Assets.xcassets */,
 				9E5D693A249B5BCB00D2245B /* LaunchScreen.storyboard */,
 				9E5D693D249B5BCB00D2245B /* Info.plist */,
@@ -150,8 +193,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E295BB6249C27E600D1D9EB /* TokenDetails.storyboard in Resources */,
 				9E5D693C249B5BCB00D2245B /* LaunchScreen.storyboard in Resources */,
 				9E5D6939249B5BCB00D2245B /* Assets.xcassets in Resources */,
+				9E295BC5249CC96B00D1D9EB /* accessTokenElementCell.xib in Resources */,
+				9E295BC0249C814F00D1D9EB /* userInfoElementCell.xib in Resources */,
 				9E5D6937249B5BC700D2245B /* Main.storyboard in Resources */,
 				9E295BAE249C21D500D1D9EB /* TokenListCell.xib in Resources */,
 			);
@@ -165,10 +211,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */,
+				9E295BC4249CC96B00D1D9EB /* accessTokenElementCell.swift in Sources */,
 				9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */,
 				9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */,
 				9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */,
+				9E295BC7249CCC7800D1D9EB /* userStruct.swift in Sources */,
+				9E295BC9249CCCA100D1D9EB /* tokenStruct.swift in Sources */,
 				9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */,
+				9E295BB4249C27DC00D1D9EB /* TokenDetailsVC.swift in Sources */,
+				9E295BB9249C5EFA00D1D9EB /* detailsListExt.swift in Sources */,
+				9E295BBF249C814F00D1D9EB /* userInfoElementCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

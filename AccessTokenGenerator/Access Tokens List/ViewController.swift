@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var TokenListView: UITableView!
     
+    var users: [User] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,8 +25,8 @@ class ViewController: UIViewController {
     
     // トークン新規生成
     @IBAction func onTapGenerate(_ sender: Any) {
-        
+        self.users.append(User(screenName: "BacksideEnchan", userid: "114514", token: AccessToken(key: "", secret: ""), created: 0))
+        self.TokenListView.reloadData()
     }
-    
 }
 

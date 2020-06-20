@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E8CD9172C563EE03038F06 /* Pods_AccessTokenGeneratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2A8E14B833257556721CE /* Pods_AccessTokenGeneratorTests.framework */; };
+		76340D771512D066853E682F /* Pods_AccessTokenGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11154FCEDF7F8A51F4A110 /* Pods_AccessTokenGenerator.framework */; };
 		9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BAB249C21D500D1D9EB /* TokenListCell.swift */; };
 		9E295BAE249C21D500D1D9EB /* TokenListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BAC249C21D500D1D9EB /* TokenListCell.xib */; };
 		9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */; };
@@ -19,6 +21,10 @@
 		9E295BC5249CC96B00D1D9EB /* accessTokenElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E295BC3249CC96B00D1D9EB /* accessTokenElementCell.xib */; };
 		9E295BC7249CCC7800D1D9EB /* userStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BC6249CCC7800D1D9EB /* userStruct.swift */; };
 		9E295BC9249CCCA100D1D9EB /* tokenStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */; };
+		9E295BD1249D970800D1D9EB /* AccessTokenGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BD0249D970800D1D9EB /* AccessTokenGeneratorTests.swift */; };
+		9E295BEC249DB6CA00D1D9EB /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BEB249DB6CA00D1D9EB /* APIKey.swift */; };
+		9E295BEE249DBC1200D1D9EB /* GeneratedTokenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BED249DBC1200D1D9EB /* GeneratedTokenVC.swift */; };
+		9E295BF6249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BF5249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift */; };
 		9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D692F249B5BC700D2245B /* AppDelegate.swift */; };
 		9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6931249B5BC700D2245B /* SceneDelegate.swift */; };
 		9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6933249B5BC700D2245B /* ViewController.swift */; };
@@ -27,7 +33,27 @@
 		9E5D693C249B5BCB00D2245B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D693A249B5BCB00D2245B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9E295BD3249D970800D1D9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5D6924249B5BC700D2245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5D692B249B5BC700D2245B;
+			remoteInfo = AccessTokenGenerator;
+		};
+		9E295BF8249DEAF000D1D9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5D6924249B5BC700D2245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5D692B249B5BC700D2245B;
+			remoteInfo = AccessTokenGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		328B2A31E66B54DB472DCB61 /* Pods-AccessTokenGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTokenGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-AccessTokenGeneratorTests/Pods-AccessTokenGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3BD933382F79D98E8170C1 /* Pods-AccessTokenGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTokenGenerator.release.xcconfig"; path = "Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		978A2EEA0F0AE9E8F841F5E2 /* Pods-AccessTokenGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTokenGeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-AccessTokenGeneratorTests/Pods-AccessTokenGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E295BAB249C21D500D1D9EB /* TokenListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListCell.swift; sourceTree = "<group>"; };
 		9E295BAC249C21D500D1D9EB /* TokenListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenListCell.xib; sourceTree = "<group>"; };
 		9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListViewExt.swift; sourceTree = "<group>"; };
@@ -40,6 +66,14 @@
 		9E295BC3249CC96B00D1D9EB /* accessTokenElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = accessTokenElementCell.xib; sourceTree = "<group>"; };
 		9E295BC6249CCC7800D1D9EB /* userStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userStruct.swift; sourceTree = "<group>"; };
 		9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokenStruct.swift; sourceTree = "<group>"; };
+		9E295BCE249D970800D1D9EB /* AccessTokenGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessTokenGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E295BD0249D970800D1D9EB /* AccessTokenGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenGeneratorTests.swift; sourceTree = "<group>"; };
+		9E295BD2249D970800D1D9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E295BEB249DB6CA00D1D9EB /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		9E295BED249DBC1200D1D9EB /* GeneratedTokenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedTokenVC.swift; sourceTree = "<group>"; };
+		9E295BF3249DEAF000D1D9EB /* AccessTokenGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessTokenGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E295BF5249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenGeneratorUITests.swift; sourceTree = "<group>"; };
+		9E295BF7249DEAF000D1D9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E5D692C249B5BC700D2245B /* AccessTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5D692F249B5BC700D2245B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E5D6931249B5BC700D2245B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,19 +82,47 @@
 		9E5D6938249B5BCB00D2245B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5D693B249B5BCB00D2245B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E5D693D249B5BCB00D2245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC82A038A340D51A5E5926C /* Pods-AccessTokenGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTokenGenerator.debug.xcconfig"; path = "Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC2A8E14B833257556721CE /* Pods_AccessTokenGeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessTokenGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC11154FCEDF7F8A51F4A110 /* Pods_AccessTokenGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessTokenGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9E5D6929249B5BC700D2245B /* Frameworks */ = {
+		9E295BCB249D970800D1D9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E8CD9172C563EE03038F06 /* Pods_AccessTokenGeneratorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E295BF0249DEAF000D1D9EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E5D6929249B5BC700D2245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76340D771512D066853E682F /* Pods_AccessTokenGenerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98C06766A7F56B7D36EE2634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC11154FCEDF7F8A51F4A110 /* Pods_AccessTokenGenerator.framework */,
+				DDC2A8E14B833257556721CE /* Pods_AccessTokenGeneratorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E295BAF249C21DA00D1D9EB /* TokenListCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +139,7 @@
 				9E5D6933249B5BC700D2245B /* ViewController.swift */,
 				9E295BB1249C252900D1D9EB /* TokenListViewExt.swift */,
 				9E5D6935249B5BC700D2245B /* Main.storyboard */,
+				9E295BED249DBC1200D1D9EB /* GeneratedTokenVC.swift */,
 			);
 			path = "Access Tokens List";
 			sourceTree = "<group>";
@@ -103,11 +166,33 @@
 			path = detailsElementCells;
 			sourceTree = "<group>";
 		};
+		9E295BCF249D970800D1D9EB /* AccessTokenGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BD0249D970800D1D9EB /* AccessTokenGeneratorTests.swift */,
+				9E295BD2249D970800D1D9EB /* Info.plist */,
+			);
+			path = AccessTokenGeneratorTests;
+			sourceTree = "<group>";
+		};
+		9E295BF4249DEAF000D1D9EB /* AccessTokenGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BF5249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift */,
+				9E295BF7249DEAF000D1D9EB /* Info.plist */,
+			);
+			path = AccessTokenGeneratorUITests;
+			sourceTree = "<group>";
+		};
 		9E5D6923249B5BC700D2245B = {
 			isa = PBXGroup;
 			children = (
 				9E5D692E249B5BC700D2245B /* AccessTokenGenerator */,
+				9E295BCF249D970800D1D9EB /* AccessTokenGeneratorTests */,
+				9E295BF4249DEAF000D1D9EB /* AccessTokenGeneratorUITests */,
 				9E5D692D249B5BC700D2245B /* Products */,
+				E7D9D5773ACBDCCAC27E0AE0 /* Pods */,
+				98C06766A7F56B7D36EE2634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				9E5D692C249B5BC700D2245B /* AccessTokenGenerator.app */,
+				9E295BCE249D970800D1D9EB /* AccessTokenGeneratorTests.xctest */,
+				9E295BF3249DEAF000D1D9EB /* AccessTokenGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +213,7 @@
 				9E5D6931249B5BC700D2245B /* SceneDelegate.swift */,
 				9E295BC6249CCC7800D1D9EB /* userStruct.swift */,
 				9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */,
+				9E295BEB249DB6CA00D1D9EB /* APIKey.swift */,
 				9E295BB0249C246000D1D9EB /* Access Tokens List */,
 				9E295BB7249C27EB00D1D9EB /* Token Details */,
 				9E5D6938249B5BCB00D2245B /* Assets.xcassets */,
@@ -135,16 +223,66 @@
 			path = AccessTokenGenerator;
 			sourceTree = "<group>";
 		};
+		E7D9D5773ACBDCCAC27E0AE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAC82A038A340D51A5E5926C /* Pods-AccessTokenGenerator.debug.xcconfig */,
+				5D3BD933382F79D98E8170C1 /* Pods-AccessTokenGenerator.release.xcconfig */,
+				328B2A31E66B54DB472DCB61 /* Pods-AccessTokenGeneratorTests.debug.xcconfig */,
+				978A2EEA0F0AE9E8F841F5E2 /* Pods-AccessTokenGeneratorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9E295BCD249D970800D1D9EB /* AccessTokenGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E295BD5249D970800D1D9EB /* Build configuration list for PBXNativeTarget "AccessTokenGeneratorTests" */;
+			buildPhases = (
+				07CB6179F544109C4ADDF670 /* [CP] Check Pods Manifest.lock */,
+				9E295BCA249D970800D1D9EB /* Sources */,
+				9E295BCB249D970800D1D9EB /* Frameworks */,
+				9E295BCC249D970800D1D9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E295BD4249D970800D1D9EB /* PBXTargetDependency */,
+			);
+			name = AccessTokenGeneratorTests;
+			productName = AccessTokenGeneratorTests;
+			productReference = 9E295BCE249D970800D1D9EB /* AccessTokenGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E295BF2249DEAF000D1D9EB /* AccessTokenGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E295BFA249DEAF000D1D9EB /* Build configuration list for PBXNativeTarget "AccessTokenGeneratorUITests" */;
+			buildPhases = (
+				9E295BEF249DEAF000D1D9EB /* Sources */,
+				9E295BF0249DEAF000D1D9EB /* Frameworks */,
+				9E295BF1249DEAF000D1D9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E295BF9249DEAF000D1D9EB /* PBXTargetDependency */,
+			);
+			name = AccessTokenGeneratorUITests;
+			productName = AccessTokenGeneratorUITests;
+			productReference = 9E295BF3249DEAF000D1D9EB /* AccessTokenGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9E5D692B249B5BC700D2245B /* AccessTokenGenerator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E5D6940249B5BCB00D2245B /* Build configuration list for PBXNativeTarget "AccessTokenGenerator" */;
 			buildPhases = (
+				C8FBF4E761DC323EEAA26B94 /* [CP] Check Pods Manifest.lock */,
 				9E5D6928249B5BC700D2245B /* Sources */,
 				9E5D6929249B5BC700D2245B /* Frameworks */,
 				9E5D692A249B5BC700D2245B /* Resources */,
+				376510CA007D1350DB512C9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +303,14 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = EnchantCode;
 				TargetAttributes = {
+					9E295BCD249D970800D1D9EB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9E5D692B249B5BC700D2245B;
+					};
+					9E295BF2249DEAF000D1D9EB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9E5D692B249B5BC700D2245B;
+					};
 					9E5D692B249B5BC700D2245B = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -184,11 +330,27 @@
 			projectRoot = "";
 			targets = (
 				9E5D692B249B5BC700D2245B /* AccessTokenGenerator */,
+				9E295BCD249D970800D1D9EB /* AccessTokenGeneratorTests */,
+				9E295BF2249DEAF000D1D9EB /* AccessTokenGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9E295BCC249D970800D1D9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E295BF1249DEAF000D1D9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E5D692A249B5BC700D2245B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,13 +367,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07CB6179F544109C4ADDF670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccessTokenGeneratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		376510CA007D1350DB512C9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FBF4E761DC323EEAA26B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccessTokenGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9E295BCA249D970800D1D9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E295BD1249D970800D1D9EB /* AccessTokenGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E295BEF249DEAF000D1D9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E295BF6249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E5D6928249B5BC700D2245B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */,
 				9E295BC4249CC96B00D1D9EB /* accessTokenElementCell.swift in Sources */,
+				9E295BEE249DBC1200D1D9EB /* GeneratedTokenVC.swift in Sources */,
 				9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */,
 				9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */,
 				9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */,
@@ -220,11 +463,25 @@
 				9E295BAD249C21D500D1D9EB /* TokenListCell.swift in Sources */,
 				9E295BB4249C27DC00D1D9EB /* TokenDetailsVC.swift in Sources */,
 				9E295BB9249C5EFA00D1D9EB /* detailsListExt.swift in Sources */,
+				9E295BEC249DB6CA00D1D9EB /* APIKey.swift in Sources */,
 				9E295BBF249C814F00D1D9EB /* userInfoElementCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E295BD4249D970800D1D9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5D692B249B5BC700D2245B /* AccessTokenGenerator */;
+			targetProxy = 9E295BD3249D970800D1D9EB /* PBXContainerItemProxy */;
+		};
+		9E295BF9249DEAF000D1D9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5D692B249B5BC700D2245B /* AccessTokenGenerator */;
+			targetProxy = 9E295BF8249DEAF000D1D9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9E5D6935249B5BC700D2245B /* Main.storyboard */ = {
@@ -246,6 +503,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9E295BD6249D970800D1D9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328B2A31E66B54DB472DCB61 /* Pods-AccessTokenGeneratorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2RS5LHBZ9;
+				INFOPLIST_FILE = AccessTokenGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnchantCode.AccessTokenGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessTokenGenerator.app/AccessTokenGenerator";
+			};
+			name = Debug;
+		};
+		9E295BD7249D970800D1D9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978A2EEA0F0AE9E8F841F5E2 /* Pods-AccessTokenGeneratorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2RS5LHBZ9;
+				INFOPLIST_FILE = AccessTokenGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnchantCode.AccessTokenGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessTokenGenerator.app/AccessTokenGenerator";
+			};
+			name = Release;
+		};
+		9E295BFB249DEAF000D1D9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2RS5LHBZ9;
+				INFOPLIST_FILE = AccessTokenGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnchantCode.AccessTokenGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccessTokenGenerator;
+			};
+			name = Debug;
+		};
+		9E295BFC249DEAF000D1D9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2RS5LHBZ9;
+				INFOPLIST_FILE = AccessTokenGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnchantCode.AccessTokenGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccessTokenGenerator;
+			};
+			name = Release;
+		};
 		9E5D693E249B5BCB00D2245B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,6 +699,7 @@
 		};
 		9E5D6941249B5BCB00D2245B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC82A038A340D51A5E5926C /* Pods-AccessTokenGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +718,7 @@
 		};
 		9E5D6942249B5BCB00D2245B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3BD933382F79D98E8170C1 /* Pods-AccessTokenGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +738,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9E295BD5249D970800D1D9EB /* Build configuration list for PBXNativeTarget "AccessTokenGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E295BD6249D970800D1D9EB /* Debug */,
+				9E295BD7249D970800D1D9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E295BFA249DEAF000D1D9EB /* Build configuration list for PBXNativeTarget "AccessTokenGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E295BFB249DEAF000D1D9EB /* Debug */,
+				9E295BFC249DEAF000D1D9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9E5D6927249B5BC700D2245B /* Build configuration list for PBXProject "AccessTokenGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

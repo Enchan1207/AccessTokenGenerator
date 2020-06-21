@@ -1,0 +1,6 @@
+framework module Pods_AccessTokenGeneratorTests {
+  umbrella header "Pods-AccessTokenGeneratorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

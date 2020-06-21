@@ -25,6 +25,8 @@
 		9E295BEC249DB6CA00D1D9EB /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BEB249DB6CA00D1D9EB /* APIKey.swift */; };
 		9E295BEE249DBC1200D1D9EB /* GeneratedTokenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BED249DBC1200D1D9EB /* GeneratedTokenVC.swift */; };
 		9E295BF6249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295BF5249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift */; };
+		9E295C18249F54D800D1D9EB /* RealmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295C17249F54D800D1D9EB /* RealmClient.swift */; };
+		9E295C1A249F54F800D1D9EB /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E295C19249F54F800D1D9EB /* userModel.swift */; };
 		9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D692F249B5BC700D2245B /* AppDelegate.swift */; };
 		9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6931249B5BC700D2245B /* SceneDelegate.swift */; };
 		9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D6933249B5BC700D2245B /* ViewController.swift */; };
@@ -74,6 +76,8 @@
 		9E295BF3249DEAF000D1D9EB /* AccessTokenGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessTokenGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E295BF5249DEAF000D1D9EB /* AccessTokenGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenGeneratorUITests.swift; sourceTree = "<group>"; };
 		9E295BF7249DEAF000D1D9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E295C17249F54D800D1D9EB /* RealmClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmClient.swift; sourceTree = "<group>"; };
+		9E295C19249F54F800D1D9EB /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
 		9E5D692C249B5BC700D2245B /* AccessTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5D692F249B5BC700D2245B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E5D6931249B5BC700D2245B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +188,25 @@
 			path = AccessTokenGeneratorUITests;
 			sourceTree = "<group>";
 		};
+		9E295C15249F544C00D1D9EB /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BEB249DB6CA00D1D9EB /* APIKey.swift */,
+				9E295BC6249CCC7800D1D9EB /* userStruct.swift */,
+				9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */,
+			);
+			path = structs;
+			sourceTree = "<group>";
+		};
+		9E295C16249F545E00D1D9EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E295BB0249C246000D1D9EB /* Access Tokens List */,
+				9E295BB7249C27EB00D1D9EB /* Token Details */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9E5D6923249B5BC700D2245B = {
 			isa = PBXGroup;
 			children = (
@@ -211,11 +234,10 @@
 			children = (
 				9E5D692F249B5BC700D2245B /* AppDelegate.swift */,
 				9E5D6931249B5BC700D2245B /* SceneDelegate.swift */,
-				9E295BC6249CCC7800D1D9EB /* userStruct.swift */,
-				9E295BC8249CCCA100D1D9EB /* tokenStruct.swift */,
-				9E295BEB249DB6CA00D1D9EB /* APIKey.swift */,
-				9E295BB0249C246000D1D9EB /* Access Tokens List */,
-				9E295BB7249C27EB00D1D9EB /* Token Details */,
+				9E295C17249F54D800D1D9EB /* RealmClient.swift */,
+				9E295C19249F54F800D1D9EB /* userModel.swift */,
+				9E295C15249F544C00D1D9EB /* structs */,
+				9E295C16249F545E00D1D9EB /* View */,
 				9E5D6938249B5BCB00D2245B /* Assets.xcassets */,
 				9E5D693A249B5BCB00D2245B /* LaunchScreen.storyboard */,
 				9E5D693D249B5BCB00D2245B /* Info.plist */,
@@ -245,6 +267,7 @@
 				9E295BCA249D970800D1D9EB /* Sources */,
 				9E295BCB249D970800D1D9EB /* Frameworks */,
 				9E295BCC249D970800D1D9EB /* Resources */,
+				EDBDE974C06417D94E98277D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -429,6 +452,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EDBDE974C06417D94E98277D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGeneratorTests/Pods-AccessTokenGeneratorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGeneratorTests/Pods-AccessTokenGeneratorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccessTokenGeneratorTests/Pods-AccessTokenGeneratorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -452,7 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E295C18249F54D800D1D9EB /* RealmClient.swift in Sources */,
 				9E5D6934249B5BC700D2245B /* ViewController.swift in Sources */,
+				9E295C1A249F54F800D1D9EB /* userModel.swift in Sources */,
 				9E295BC4249CC96B00D1D9EB /* accessTokenElementCell.swift in Sources */,
 				9E295BEE249DBC1200D1D9EB /* GeneratedTokenVC.swift in Sources */,
 				9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */,

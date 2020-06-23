@@ -21,15 +21,14 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let token = AccessToken(key: "1184828739009429504-IU6psdEH0yTCEFnQOg5SyXbkoekuhO", secret: "1XgTZWe18cB5R9jilgo2dN9pADS7kRjW9snRKGDu6iulE")
-        let user = userModel(screenName: "ImaginaryJK", userid: "1184828739009429504", token: token)
-        IconFetcher(token: token).fetch(user: user)
-        
         // ユーザリスト設定
         let listCellNib = UINib(nibName: "TokenListCell", bundle: nil)
         TokenListView.register(listCellNib, forCellReuseIdentifier: "TokenListCell")
         TokenListView.delegate = self
         TokenListView.dataSource = self
+        
+        let documentDirPath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
+        print(documentDirPath)
         
     }
     

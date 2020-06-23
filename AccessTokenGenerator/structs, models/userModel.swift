@@ -58,10 +58,10 @@ class userModel: Object {
     func getIconImage() -> UIImage? {
         let manager = FileManager.default
         let iconName = self.userid
-        let cachePath = manager.urls(for: .cachesDirectory, in: .userDomainMask)[0].absoluteString
+        let cachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)[0] as String
         let iconPath = cachePath + "/icon/" + iconName
         
-        guard let iconData = try? Data(contentsOf: URL(string: iconPath)!) else{ return nil }
+        guard let iconData = try? Data(contentsOf: URL(fileURLWithPath: iconPath)) else{ return nil }
         
         let icon = UIImage(data: iconData)
         return icon

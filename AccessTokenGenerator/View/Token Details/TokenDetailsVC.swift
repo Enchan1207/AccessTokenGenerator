@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Swifter
 import Accounts
 import UIKit
 
@@ -42,7 +43,7 @@ class TokenDetailsViewController: UIViewController {
                 guard let targetUser = self.user else { return }
                 UserManager().remove(user: targetUser)
                 self.navigationController?.popViewController(animated: true)
-            }
+        }
         );
         let cancelButton = UIAlertAction(title: "cancel",style: .cancel,handler: nil);
         removeAlert.addAction(acceptButton);
@@ -63,5 +64,16 @@ class TokenDetailsViewController: UIViewController {
         self.present(activityVC, animated: true, completion: nil)
     }
     
+    @IBAction func onTapReflesh(_ sender: Any) {
+        // 多方面からアクセスし直す
+        if let token = self.user?.getToken(){
+            let swifter = Swifter(apikey: APIKey(), accesstoken: token)
+            swifter.showUser(.id(self.user!.userid), includeEntities: true, success: { (json) in
+                print(json)
+            }) { (error) in
+                print(error)
+            }
+        }
+    }
     
 }

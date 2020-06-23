@@ -30,7 +30,7 @@ extension ViewController: UITableViewDelegate {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 55
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,6 +39,7 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TokenListCell") as! TokenListCell
+        cell.iconView?.image = self.users[indexPath.row].getIconImage() ?? UIImage(systemName: "person.crop.circle")
         cell.screenNameLabel?.text = self.users[indexPath.row].screenName
         cell.modifiedLabel?.text = self.users[indexPath.row].getFormattedDate()
         

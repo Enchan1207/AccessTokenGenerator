@@ -37,6 +37,7 @@
 		9E5D6937249B5BC700D2245B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D6935249B5BC700D2245B /* Main.storyboard */; };
 		9E5D6939249B5BCB00D2245B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D6938249B5BCB00D2245B /* Assets.xcassets */; };
 		9E5D693C249B5BCB00D2245B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D693A249B5BCB00D2245B /* LaunchScreen.storyboard */; };
+		9EDF88D824A1D1CE00012E37 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88D724A1D1CE00012E37 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		9E5D6938249B5BCB00D2245B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5D693B249B5BCB00D2245B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E5D693D249B5BCB00D2245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF88D724A1D1CE00012E37 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		AAC82A038A340D51A5E5926C /* Pods-AccessTokenGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTokenGenerator.debug.xcconfig"; path = "Target Support Files/Pods-AccessTokenGenerator/Pods-AccessTokenGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		DDC2A8E14B833257556721CE /* Pods_AccessTokenGeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessTokenGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC11154FCEDF7F8A51F4A110 /* Pods_AccessTokenGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessTokenGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +250,7 @@
 				9E295C1F24A0D20800D1D9EB /* IconFetcher.swift */,
 				9E295C2124A0D26C00D1D9EB /* SwifterExt.swift */,
 				9E295C2324A163F500D1D9EB /* StringExt.swift */,
+				9EDF88D724A1D1CE00012E37 /* CircleImageView.swift */,
 				9E295C15249F544C00D1D9EB /* structs, models */,
 				9E295C16249F545E00D1D9EB /* View */,
 				9E5D6938249B5BCB00D2245B /* Assets.xcassets */,
@@ -512,6 +515,7 @@
 				9E295BC4249CC96B00D1D9EB /* accessTokenElementCell.swift in Sources */,
 				9E295BEE249DBC1200D1D9EB /* GeneratedTokenVC.swift in Sources */,
 				9E295BB2249C252900D1D9EB /* TokenListViewExt.swift in Sources */,
+				9EDF88D824A1D1CE00012E37 /* CircleImageView.swift in Sources */,
 				9E295C1C24A020A300D1D9EB /* UserManager.swift in Sources */,
 				9E5D6930249B5BC700D2245B /* AppDelegate.swift in Sources */,
 				9E5D6932249B5BC700D2245B /* SceneDelegate.swift in Sources */,

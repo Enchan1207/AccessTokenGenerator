@@ -35,9 +35,8 @@ struct User: Codable {
     
     // アイコン画像取得
     func getIconImage() -> UIImage? {
-        let manager = FileManager.default
         let iconName = self.userid
-        let cachePath = manager.urls(for: .cachesDirectory, in: .userDomainMask)[0].absoluteString
+        let cachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)[0] as String
         let iconPath = cachePath + "/icon/" + iconName
         
         guard let iconData = try? Data(contentsOf: URL(string: iconPath)!) else{ return nil }

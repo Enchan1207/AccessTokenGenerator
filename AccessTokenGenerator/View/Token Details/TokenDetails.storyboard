@@ -48,7 +48,11 @@
                         <viewLayoutGuide key="safeArea" id="IZG-Qe-KRa"/>
                     </view>
                     <navigationItem key="navigationItem" title="Token Details" largeTitleDisplayMode="never" id="GTh-SB-MnT">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="WQL-Rn-0xh"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="WQL-Rn-0xh">
+                            <connections>
+                                <action selector="onTapReflesh:" destination="7TD-8b-xM1" id="RvZ-fw-T6M"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="detailsView" destination="TYx-eC-akc" id="xnq-XT-e6r"/>

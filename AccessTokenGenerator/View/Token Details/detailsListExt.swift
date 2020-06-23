@@ -47,19 +47,20 @@ extension TokenDetailsViewController: UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(withIdentifier: "userInfoElementCell") as! userInfoElementCell
             cell.userIDLabel?.text = self.user?.userid
             cell.screenNameLabel?.text = self.user?.screenName
-//            cell.iconView?.image = UIImage(data: Data(contentsOf: URL(string: "/Caches/\(self.user.userid).png")!)) // 保留
+            cell.iconView?.image = self.user?.getIconImage() ?? UIImage(systemName: "person.crop.circle")
+            
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "accessTokenElementCell") as! accessTokenElementCell
             switch indexPath.row {
             case 0:
                 cell.typeLabel?.text = "token"
-                cell.contentLabel?.text = self.user?.token.key
+                cell.contentLabel?.text = self.user?.getToken()?.key
                 break
             
             case 1:
                 cell.typeLabel?.text = "secret"
-                cell.contentLabel?.text = self.user?.token.secret
+                cell.contentLabel?.text = self.user?.getToken()?.secret
                 break
                 
             case 2:

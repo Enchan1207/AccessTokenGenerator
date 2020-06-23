@@ -21,9 +21,17 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xra-kf-62h">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" systemItem="action" id="dlf-iZ-79M"/>
+                                    <barButtonItem title="Item" systemItem="action" id="dlf-iZ-79M">
+                                        <connections>
+                                            <action selector="onTapShare:" destination="7TD-8b-xM1" id="h0w-Nr-oJc"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="cBE-JP-ca0"/>
-                                    <barButtonItem style="plain" systemItem="trash" id="CJ3-Hb-uko"/>
+                                    <barButtonItem style="plain" systemItem="trash" id="CJ3-Hb-uko">
+                                        <connections>
+                                            <action selector="onTapDelete:" destination="7TD-8b-xM1" id="Hcb-Hj-Sef"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -53,7 +61,6 @@
         <!--Navigation Controller-->
         <scene sceneID="52W-uS-uOj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pHS-KA-pSV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Or-uY-oEz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="obE-qc-8Ab">
@@ -65,6 +72,7 @@
                         <segue destination="7TD-8b-xM1" kind="relationship" relationship="rootViewController" id="urh-zU-bV7"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pHS-KA-pSV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="122" y="123"/>
         </scene>

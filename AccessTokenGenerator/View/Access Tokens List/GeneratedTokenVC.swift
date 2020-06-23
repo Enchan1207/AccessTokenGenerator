@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class GeneratedTokenViewController: UIViewController {
-    var generatedUser: User? = nil
+    var generatedUser: userModel? = nil
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tokenLabel: UILabel!
@@ -31,7 +31,7 @@ class GeneratedTokenViewController: UIViewController {
         self.view.layoutIfNeeded()
         
         // トークン設定
-        if let token = generatedUser?.token{
+        if let token = generatedUser?.getToken(){
             tokenLabel.text = token.key
             tokensecretLabel.text = token.secret
         }
@@ -57,7 +57,7 @@ class GeneratedTokenViewController: UIViewController {
     }
     
     @IBAction func onTapCopyToken(_ sender: UIButton) {
-        if let token = self.generatedUser?.token {
+        if let token = self.generatedUser?.getToken() {
             let tokenstr = "key: \(token.key)\nsecret: \(token.secret)"
             UIPasteboard.general.string = tokenstr
             

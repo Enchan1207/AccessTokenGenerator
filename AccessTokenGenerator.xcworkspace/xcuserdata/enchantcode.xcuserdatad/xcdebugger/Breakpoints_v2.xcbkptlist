@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "43AE9DA4-1B0D-42FF-B3C1-BAFF0151CA66"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2845FFE7-3B05-46E6-83E8-ACE1B6F38643"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessTokenGenerator/View/Access Tokens List/TokenListViewExt.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB4CAA5B-1F28-4E17-A9DD-F9C4414EFD14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessTokenGeneratorTests/AccessTokenGeneratorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "testStringRepl()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB115F9D-1C2B-4C4D-808A-BA1BF8C0ECAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessTokenGeneratorTests/AccessTokenGeneratorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testIconFetch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE38F40D-731F-4792-B3EE-E8F5F548D611"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccessTokenGenerator/IconFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetch(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE38F40D-731F-4792-B3EE-E8F5F548D611 - 62b6da27976f02a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccessTokenGenerator.IconFetcher.fetch(user: AccessTokenGenerator.userModel) -&gt; ()"
+                  moduleName = "AccessTokenGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/LunaCF/SourceCode/Swift/Learning/AccessTokenGenerator/AccessTokenGenerator/IconFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "230">
+               </Location>
+               <Location
+                  uuid = "BE38F40D-731F-4792-B3EE-E8F5F548D611 - 942d997490d16291"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swifter.JSON) -&gt; () in AccessTokenGenerator.IconFetcher.fetch(user: AccessTokenGenerator.userModel) -&gt; ()"
+                  moduleName = "AccessTokenGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/LunaCF/SourceCode/Swift/Learning/AccessTokenGenerator/AccessTokenGenerator/IconFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "381">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
